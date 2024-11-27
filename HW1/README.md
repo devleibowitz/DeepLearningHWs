@@ -2,7 +2,7 @@
 
 ## Overview
 This project implements the LeNet-5 architecture over the FashionMNIST dataset and compares the effects of different regularization techniques:
-- **No Reularization**
+- **No Regularization**
 - **Dropout** (at the hidden layer)
 - **Weight Decay** (L2 regularization)
 - **Batch Normalization**
