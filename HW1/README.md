@@ -63,10 +63,10 @@ The model implements L2 regularization to penalize large weights and thereby red
 
 | Technique             | Train Accuracy (%) | Test Accuracy (%) |
 |-----------------------|--------------------|-------------------|
-| No Regularization     | 97.87              | 89.08             |
-| Dropout               | 91.59              | 89.75             |
-| Weight Decay (L2)     | 93.27              | 90.00             |
-| Batch Normalization   | 98.60              | 88.62             |
+| No Regularization     | 97.87              | 90.00             |
+| Dropout               | 91.59              | 90.05             |
+| Weight Decay (L2)     | 93.27              | 91.00             |
+| Batch Normalization   | 98.60              | 89.95             |
 
 You can download the results in a csv file here:
 [LeNet5 Results](results/lenet5_results.csv)
