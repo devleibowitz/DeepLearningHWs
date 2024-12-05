@@ -1,24 +1,5 @@
 Technique,Train Accuracy (%),Test Accuracy (%)
-<<<<<<< HEAD
-<<<<<<< HEAD
-No Regularization,97.86666666666667,90.00
-Dropout,91.59,90.05
-Weight Decay (L2),93.26666666666667,91.00
-Batch Normalization,98.59833333333333,89.95
-=======
-=======
->>>>>>> 7add144 (modified architecture)
 No Regularization,91.99333333333334,88.98
 Dropout,89.11,88.97
-Weight Decay (L2),89.14833333333333,87.99
+Weight Decay (L2),92.92333333333333,90.36
 Batch Normalization,94.57833333333333,90.91
-<<<<<<< HEAD
->>>>>>> a0d412b (Results with updated architecture)
-=======
-=======
-No Regularization,97.86666666666667,90.00
-Dropout,91.59,90.05
-Weight Decay (L2),93.26666666666667,91.00
-Batch Normalization,98.59833333333333,89.95
->>>>>>> origin/main
->>>>>>> 7add144 (modified architecture)
