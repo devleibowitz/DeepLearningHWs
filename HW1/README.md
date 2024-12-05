@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 7add144 (modified architecture)
 # HW1: FashionMNIST x LeNet-5
 
 ## Overview
@@ -149,15 +145,3 @@ The model implements L2 regularization to penalize large weights and thereby red
 You can download the results in a csv file here:
 [LeNet5 Results](results/lenet5_results.csv)
 
-
-## LeNet5 Results
-
-| Technique | Train Accuracy (%) | Test Accuracy (%) |
-| --------- | ------------------ | ----------------- |
-| No Regularization | 91.99333333333334 | 88.98 |
-| Dropout | 89.11 | 88.97 |
-| Weight Decay (L2) | 89.14833333333333 | 87.99 |
-| Batch Normalization | 94.57833333333332 | 90.91 |
->>>>>>> a0d412b (Results with updated architecture)
-=======
->>>>>>> 7add144 (modified architecture)
