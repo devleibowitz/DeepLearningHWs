@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7add144 (modified architecture)
 # HW1: FashionMNIST x LeNet-5
 
 ## Overview
@@ -71,6 +74,7 @@ The model implements L2 regularization to penalize large weights and thereby red
 
 You can download the results in a csv file here:
 [LeNet5 Results](results/lenet5_results.csv)
+<<<<<<< HEAD
 =======
 # HW1: FashionMNIST x LeNet-5
 
@@ -155,3 +159,5 @@ You can download the results in a csv file here:
 | Weight Decay (L2) | 89.14833333333333 | 87.99 |
 | Batch Normalization | 94.57833333333332 | 90.91 |
 >>>>>>> a0d412b (Results with updated architecture)
+=======
+>>>>>>> 7add144 (modified architecture)
