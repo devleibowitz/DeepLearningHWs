@@ -39,6 +39,18 @@ Run the following command to train and evaluate the models:
    ```
 The notebook will train all four variants of the LeNet5 model.
 
+To reproduce the results with our pretrained weights, you can run the following after initializing the model-- 
+
+```python
+# Load the pretrained weights
+model.load_state_dict(torch.load('path/to/your/model_weights.pth'))
+
+# Set the model to evaluation mode
+model.eval()
+
+# The model is now ready to make predictions
+```
+
 ## Results
 The above code generates plots showing each model's training and testing accuracies in the results folder. The trained models are also saved here as .pth files.
 
