@@ -120,8 +120,8 @@ def read_records(data_dir):
         print(f"Error reading {filename}: {e}")
   return records
 
-DATA_DIR = '/Users/devleibowitz/Documents/TAU Courses/Deep Learning Raja/HW/dl_homeworks/FINAL_PROJECT/ctu_chb_data'
-all_records = read_records(DATA_DIR)
+DATA_DIR = '/Users/devleibowitz/Documents/TAU Courses/Deep Learning Raja/HW/dl_homeworks/FINAL_PROJECT/data/'
+all_records = read_records(f"{DATA_DIR}/ctu_chb_data")
 # Example usage assuming 'all_records' is your dictionary of wfdb records
 # Replace this example with your actual records dictionary
 #Example usage: Assuming all_records dictionary is available.
@@ -130,3 +130,4 @@ pytorch_tensor_processed = create_pytorch_tensor(all_records, process = True)
 
 if pytorch_tensor is not None:
   print(pytorch_tensor.shape)
+  torch.save(pytorch_tensor, f"{DATA_DIR}/processed/ctg_tensor.pt")
