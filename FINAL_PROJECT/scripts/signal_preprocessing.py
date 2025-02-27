@@ -65,6 +65,9 @@ def create_pytorch_tensor(records,process = False):
         A PyTorch tensor of shape (num_records, 2, max_signal_length)
         or None if input is invalid.
     """
+
+    records = dict(sorted(all_records.items()))
+
     if not isinstance(records, dict):
         print("Error: Input must be a dictionary of wfdb records.")
         return None
