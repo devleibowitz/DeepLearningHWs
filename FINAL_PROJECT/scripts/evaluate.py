@@ -98,7 +98,7 @@ if __name__ == "__main__":
     # Prepare data (assuming prepare_data returns test_loader as well)
     _, _, test_loader = prepare_data(data_path, labels_path, batch_size, include_test=True)
 
-    # Load the model
+    # Load the modelda
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
     model = load_model(model_path, input_size, hidden_size, num_layers, num_classes, device)
 

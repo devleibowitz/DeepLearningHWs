@@ -59,7 +59,7 @@ def prepare_data(data_path, labels_path, batch_size=32, train_split=0.7, val_spl
         )
         return train_loader, val_loader, test_loader
     else:
-        train_loader, val_loader = create_dataloaders(
+        train_loader, val_loader, test_loader = create_dataloaders(
             data_tensor_preprocessed, 
             labels_path, 
             batch_size, 
