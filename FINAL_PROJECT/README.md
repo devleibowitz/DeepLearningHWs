@@ -18,7 +18,7 @@ Stillbirth and birth-related complications remain a leading cause of neonatal mo
 
 ## 📁 Directory Structure
 
-├── data/ # Preprocessed dataset files (EHR & CTG) ├── notebooks/ # Jupyter notebooks for model experiments and visualizations ├── models/ # Saved models and weights ├── figures/ # All result figures and diagrams ├── src/ │ ├── train_lightgbm.py # LightGBM training and evaluation │ ├── train_transformer.py │ ├── train_mamba.py │ ├── fusion_model.py │ └── preprocessing.py # Signal cleaning, EHR formatting ├── results/ │ └── report.pdf # Final report (with figures, tables, and references) ├── requirements.txt └── README.md
+├── data/ # Preprocessed dataset files (EHR & CTG) ├── notebooks/ # Jupyter notebooks for model experiments and visualizations ├── models/ # Saved models and weights ├── figures/ # All result figures and diagrams ├── scripts/ │ ├── train_lightgbm.py # LightGBM training and evaluation │ ├── train_transformer.py │ ├── train_mamba.py │ ├── fusion_model.py │ └── preprocessing.py # Signal cleaning, EHR formatting ├── results/ │ └── report.pdf # Final report (with figures, tables, and references) ├── requirements.txt └── README.md
 
 
 ## 🚀 Quick Start
@@ -29,15 +29,15 @@ This project uses `Python 3.11.8`. All dependencies are managed with [Poetry](ht
 Ensure the dataset (CTU-UHB) is downloaded and placed in data/. Preprocessing scripts will clean and format the data automatically.
 3. **Train LightGBM on EHR Data**
    ```bash
-    python src/train_lightgbm.py data/ehr_features.csv
+    python scripts/train_lightgbm.py data/ehr_features.csv
 
 4. **Train Transformer on CTG Data**
    ```bash
-    python src/train_transformer.py
+    python scripts/train_transformer.py
 
 5. **Run the Fusion Model**
    ```bash
-    python src/fusion_transformer.py
+    python scripts/fusion_transformer.py
 
 ## 📊 Results
 
