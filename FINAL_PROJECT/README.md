@@ -18,7 +18,11 @@ Stillbirth and birth-related complications remain a leading cause of neonatal mo
 
 ## 📁 Directory Structure
 
-├── data/ # Preprocessed dataset files (EHR & CTG) ├── notebooks/ # Jupyter notebooks for model experiments and visualizations ├── models/ # Saved models and weights ├── figures/ # All result figures and diagrams ├── scripts/ │ ├── train_lightgbm.py # LightGBM training and evaluation │ ├── train_transformer.py │ ├── train_mamba.py │ ├── fusion_model.py │ └── preprocessing.py # Signal cleaning, EHR formatting ├── results/ │ └── report.pdf # Final report (with figures, tables, and references) ├── requirements.txt └── README.md
+├── data/ # Raw and Preprocessed dataset files (EHR & CTG) 
+├── notebooks/ # Jupyter notebooks for model experiments and visualizations ├── models/ # Saved models and weights  
+├── scripts/  # Implementation of all preprocessing and modeling 
+├── poetry.lock/pyproject.toml / # Files for installing requirements
+└── README.md
 
 
 ## 🚀 Quick Start
